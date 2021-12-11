@@ -12,8 +12,8 @@ POST http://localhost:5000/api/auth/login
 Content-Type: application/json
 
 {
-    "username": "thuan",
-    "password": "thuan"
+    "username": "thequy",
+    "password": "thequy"
 }
 
 ###
@@ -27,3 +27,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MWIzN
     "url": "foody.com",
     "img": "images 03"
 }
+
+###
+GET http://localhost:5000/api/post
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MWIzM2YwMWEwMWRmZTZkMWNiMjUxYjgiLCJpYXQiOjE2MzkyMTk5NzJ9.4ynzSWWA70tF7ugBRmu8DZEkwtBKI2jCuKcaSDvb9Wk

@@ -29,6 +29,6 @@ app.use(express.json())
 app.use('/api/auth', authRouter)
 app.use('/api/post', postRouter)
 
-const POST = 5000
+const PORT = 5000
 
-app.listen(POST, () => console.log('Server started on post: ${POST}'))
+app.listen(PORT, () => console.log(`Server started on post: ${PORT}`))
