@@ -12,8 +12,8 @@ POST http://localhost:5000/api/auth/login
 Content-Type: application/json
 
 {
-    "username": "thequy",
-    "password": "thequy"
+    "username": "thuan",
+    "password": "thuan"
 }
 
 ###
@@ -30,4 +30,18 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MWIzN
 
 ###
 GET http://localhost:5000/api/post
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MWIzM2YwMWEwMWRmZTZkMWNiMjUxYjgiLCJpYXQiOjE2MzkyMTk5NzJ9.4ynzSWWA70tF7ugBRmu8DZEkwtBKI2jCuKcaSDvb9Wk
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MWIzNTgzMzU1NmY5MTJhMmM2NjVmNDEiLCJpYXQiOjE2MzkyMjQ0MjN9.yL3fmONmjpQjKyrnF0RlSWikX3te2uAWa9nR_NHVYRo
+
+
+###
+
+PUT http://localhost:5000/api/post/61b359be556f912a2c665f48
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MWIzNTgzMzU1NmY5MTJhMmM2NjVmNDEiLCJpYXQiOjE2MzkyMjQ0MjN9.yL3fmONmjpQjKyrnF0RlSWikX3te2uAWa9nR_NHVYRo
+
+{
+  "title": "Thuan PUT",
+  "description": "PUTTTTTT",
+  "url": "https://nguyenthequyputt.com",
+  "img": "img01"
+}
