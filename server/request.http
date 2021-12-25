@@ -2,8 +2,8 @@ POST http://localhost:5000/api/auth/register
 Content-Type: application/json
 
 {
-    "username": "thuan",
-    "password": "thuan"
+    "username": "hieu",
+    "password": "hieu"
 }
 
 ###
@@ -12,20 +12,20 @@ POST http://localhost:5000/api/auth/login
 Content-Type: application/json
 
 {
-    "username": "thuan",
-    "password": "thuan"
+    "username": "hieu",
+    "password": "hieu"
 }
 
 ###
 POST http://localhost:5000/api/post
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MWIzNTgzMzU1NmY5MTJhMmM2NjVmNDEiLCJpYXQiOjE2MzkxNDM4MjV9.Ih5H3OCuGT-NAq-mgGuIDlRKnCvFwILKrr5whKaBUUA
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MWI5ZmNmNGMyMmE2ZDZhZWFhYTM3NzciLCJpYXQiOjE2Mzk1Nzg4ODR9.7H95G4yAoZzkvkTFV10PqxNwt4I-V-1xWSjZ9pVJXuw
 
 {
-    "title": "new food",
-    "description": "thuan",
-    "url": "foody.com",
-    "img": "images 03"
+    "title": "hieu post 2 ",
+    "description": "Hieu food mew mew",
+    "url": "hieu.com",
+    "img": "images 05"
 }
 
 ###
@@ -45,3 +45,6 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MWIzN
   "url": "https://nguyenthequyputt.com",
   "img": "img01"
 }
+###
+DELETE  http://localhost:5000/api/post/61b359be556f912a2c665f48
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MWIzNTgzMzU1NmY5MTJhMmM2NjVmNDEiLCJpYXQiOjE2MzkyMjQ0MjN9.yL3fmONmjpQjKyrnF0RlSWikX3te2uAWa9nR_NHVYRo
